@@ -1,1 +1,10 @@
 # contact-service
+
+# How can I ensure that my code, program, or software is functional and secure?
+I ensure my code is functional through a variety of different ways, but in this example, I made sure my Contact Service application was fully functional by creating unit tests with JUnit for both the Contact and ContactService classes. I verified that valid contacts were created successfully in ContactTest while invalid values would throw exceptions. I tested adding, deleting, and updating contacts in ContactServiceTest, making sure the service behaved as expected and maintained data. To ensure security, I made sure to validate all input before storing or updating contact information to prevent invalid data from entering the system, which otherwise could have some issues.
+
+# How do I interpret user needs and incorporate them into a program?
+I do this in a particular way, making sure that I review all the project requirements. For this example, I translated each requirement into program functionality and their unit tests. For example, since the requirements specified certain constraints in regards to the contactIDs, I implemented them in the Contact class and then would create tests to make sure everything worked properly. Going down the list of requirements in order with tests helped make sure that each requirement was met.
+
+# How do I approach designing software?
+It depends on the type of software I'm making, my approach to making unit tests is going to be very different from making a game. In this project, I first looked at the requirements and put the correct responsibilities in the right classes. Contact represented individual contact info and the ContactService class managed contact operations (add, delete, update). This seperation allowed me to easily maintain and edit my code when mishaps occured. Furthermore, I also developed these unit tests throughout the project instead of waiting until the end, making it much easier to fix issues as they appeared as opposed to the alternative. This is one of my new biggest philosophies when it comes to programming.
